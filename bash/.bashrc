@@ -25,4 +25,15 @@
 #export PILOTPORT=/dev/pilot
 #export PILOTRATE=115200
 
+export PATH=~/.node_modules_global/bin/:~/.local/bin/:$PATH
+
 test -s ~/.alias && . ~/.alias || true
+
+export EDITOR="emacsclient -t"
+export VISUAL="emacsclient -c -a emacs"
+export TERMINAL="lxterminal"
+
+alias emt="emacsclient -t"
+alias semt="sudo emacsclient -t"
+alias emx="emacsclient -c -a emacs"
+
